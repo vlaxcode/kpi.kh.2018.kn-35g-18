@@ -1,0 +1,98 @@
+ .mainPage {
+ background-color: #e6e6ff;
+ font-size: 18px;
+}
+
+.orderPage {
+background-color:#ADD8E6;
+font-size: 18px;
+}
+
+.h1 {
+  color: #336699; font-family: 'Helvetica Neue', sans-serif;
+ font-size: 46px; font-weight: 100;
+  line-height: 50px; letter-spacing: 1px;
+  padding: 0 0 40px; border-bottom: double #555;
+text-align: center;
+}
+
+.pTop {
+   color: #808080; font-size: 20px; font-family: "Libre Baskerville", serif;
+ line-height: 50px;
+  text-align: center;
+   text-shadow: 0 1px 1px #fff;
+   padding-top: 20px;
+   text-overflow: ellipsis;
+
+}
+
+  .h3Body {font-family: 'Enriqueta', arial, serif;
+   line-height: 1.25; margin: 0 0 10px; font-size: 20px; font-weight: bold;}
+
+ .textCenter {
+  text-align:  center;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+  display: flex;
+  flex-direction: column;
+ }
+.centerimg  {
+ text-align: center; /* Выравнивание по левому краю */
+ margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+ .rightimg  {
+  float: right;
+  margin: 7px 0 7px 7px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .footer  {
+  text-align:  center;
+  display: flex;
+  flex-direction: column;
+ }
+
+ * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 7px 7px 7px 7px;
+  text-align: center;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+
+  text-align: center;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
